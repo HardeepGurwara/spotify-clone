@@ -3,7 +3,8 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
-  token: null,
+  token:
+    "BQDDGtbEXDmQMmwpXTBtjxkrbj5ZKqUTfc9NOnzknFQ9PVfYlgf52xARgPPWeVOaCLQi1HEQshT-6CFlOkV2k5s4cga4WWNRAi4sEd6yTyqYCBmeaxutKJUU6WYzt6wSXUJdXWJcX8yEmx5QSb33pHtu-9PKJNgcUoeWhgAF0_7gNWbX",
 };
 
 // this takes two thigns, state and the action
