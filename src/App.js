@@ -39,6 +39,12 @@ function App() {
           playlists: playlists,
         });
       });
+      spotify.getPlaylist("37i9dQZEVXcMzDpyroilUZ").then((discover_weekly) => {
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: discover_weekly,
+        });
+      });
     }
   }, []);
 
